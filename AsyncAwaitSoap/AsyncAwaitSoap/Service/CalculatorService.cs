@@ -2,6 +2,9 @@
 
 namespace AsyncAwaitSoap.Service
 {
+    /***
+     * Class used for executing call to remote service
+     */
     public class CalculatorService
     {
         public int FirstNumber { get; set; }
