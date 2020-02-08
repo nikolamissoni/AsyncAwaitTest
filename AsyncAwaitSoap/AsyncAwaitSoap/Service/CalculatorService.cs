@@ -7,7 +7,9 @@ namespace AsyncAwaitSoap.Service
      */
     public class CalculatorService
     {
+        //First number to be used
         public int FirstNumber { get; set; }
+        //Second number to be used
         public int SecondNumber { get; set; }
 
         public async Task<int> AddAsync()
